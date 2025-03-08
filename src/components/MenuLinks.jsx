@@ -25,7 +25,7 @@ function MenuLinks() {
                 className="menu-item header-logo"
               >
                 <figure style={{ backgroundColor: item.color }}>
-                  <img src={item.icon} alt="" />
+                  <img src={item.icon} />
                 </figure>
                 <span>{item.title}</span>
               </Link>
